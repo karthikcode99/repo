@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+:root{
+    --font-1: 'Quicksand', sans-serif;
+    --gradient-color :     linear-gradient(to right top,
+    #d000e1,
+    #b900e1, 
+    #a000e1, 
+    #8400e0, 
+    #6206df, 
+    #6305de, 
+    #6305de, 
+    #6404dd, 
+    #8600dc, 
+    #a100db, 
+    #b900da, 
+    #cf05d9);
+    --gradient-color-2 : linear-gradient(to right, #906dd4, #ad6cd1, #c76bcb, #dd6bc4, #f16cbb);
+}
+
+
+body{
+margin:0%;
+padding:0%;
+}
+
+
+.container{
+    height: 100vh;
+    background-image:var(--gradient-color); 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-1);
+
+}
+.content{
+    padding: 2em;
+}
+
+.card{
+    padding: 1em;
+    width: 20em;
+    height: 32em;
+    background-color: #32364F;
+    border-radius: 15px ;
+    color: #fff;
+    text-align: center;
+}
+
+.girl{
+    margin:2em;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    filter: drop-shadow(30px 18px 11px #292a3c);
+}
+.button{
+    background-image: var(--gradient-color-2);
+    color: white;
+    font-family: var(--font-1);
+    font-size:medium;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.Name{
+    
+    font-size: larger;
+    font-weight: 700;
+    margin-top: -5px;
+}
+.job{
+    color: #6D6D87;
+    font-weight: 800;
+    padding-top: 2px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-top: 0.1cm;
+}
+.text{
+    color:rgb(241, 241, 241);
+
+}
